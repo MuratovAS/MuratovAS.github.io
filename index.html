@@ -7,8 +7,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">  -->  
     <link rel="shortcut icon" href="favicon.ico">  
     <!-- Google Font -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -17,7 +15,7 @@
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
     <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-3.css">
+    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-2.css">
 </head> 
 
 <body>
@@ -31,8 +29,8 @@
             
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
-                    <li class="email"><i class="fas fa-envelope"></i><a href="mailto: lexamzx@gmail.com">lexamzx@gmail.com</a></li>
-                    <li class="phone"><i class="fas fa-phone"></i><a href="tel:+79049872052">+7 904-987-2052</a></li>
+                    <li class="email"><i class="fas fa-envelope"></i><a href="mailto: lexamzx[хаски]gmail.com">lexamzx[хаски]gmail.com</a></li>
+                    <li class="phone"><i class="fas fa-phone"></i><a href="tel:+7904987205[два]">+7 904-987-205[два]</a></li>
                     <li class="website"><i class="fas fa-globe"></i><a href="http://msv.us.to/" target="_blank">msv.us.to</a></li>
                     <li class="github"><i class="fab fa-github"></i><a href="https://github.com/MuratovAS" target="_blank">github.com/MuratovAS</a></li>
                     <li class="github"><i class="fab fa-vk"></i><a href="https://vk.com/muratovsa" target="_blank">vk.com/muratovsa</a></li>
@@ -70,7 +68,7 @@
             <section class="section summary-section">
                 <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>О себе</h2>
                 <div class="summary">
-					<p>Занимаюсь осознанно разработкой электроники более 4х лет. За это время мной было разработано около 10ти устройств различного назначения. Среди которых имеются коммерческие и open-source проекты.</p>
+					<p>Занимаюсь осознанно разработкой электроники более 5 лет. За это время мной было разработано более 10ти устройств различного назначения. Среди которых имеются коммерческие и open-source проекты.</p>
 					<p>Основная часть времени была затрачина на разработку твердотельных силовых преобразователей, применимых в различных отраслях бытовой и промышленной электроники (источников напряжения, ультразвуковых и индукционных установках). </p>
 					<p>В настоящие время занимаюсь разработкой промышленных систем автоматики "и управление процессом сборки". </p>
 					<p>Мой подход — проектирование электронных устройств это искусство, где важна не только общая композиция но и мельчайшие детали.</p>
@@ -87,8 +85,9 @@
 						<br>+ Навык проектирования аналоговых и цифровых схем
 						<br>+ Опыт разработки комплекта конструкторской документации на электронное устройство:
 						<br>&nbsp;&nbsp;<b>САПР для электроники</b>
+						<br>&nbsp;&nbsp;- KiCad
 						<br>&nbsp;&nbsp;- Altium Designer
-						<br>&nbsp;&nbsp;- Autodesk Eagle
+						<!--<br>&nbsp;&nbsp;- Autodesk Eagle-->
 						<br>&nbsp;&nbsp;<b>САПР вспомогательный</b>
 						<br>&nbsp;&nbsp;- Autodesk Fusion 360
 						<br>&nbsp;&nbsp;- КОМПАС-3D
@@ -98,15 +97,15 @@
 						<br>+ Опыт проектирования Cиловой электроники
 						<br>+ Опыт проектирования Промышленной автоматики
 						<br>+ Опыт разработки на ESP32 (Arduino framework)
-						<br>+ Навык SPICE моделирования в NI Multisim 
+						<br>+ Навык SPICE моделирования в Micro-Cap/Multisim
 						<br>+ Имеется опыт руководства
 					</p>
 					<p>
 						<b>Навыки в сфере IT:</b>
 						<br>+ Опыт разработки на С/C++
-						<br>+ Опыт работы с системой контроля версий git
+						<br>+ Опыт работы с системой контроля версий GIT
 						<br>+ Знание теории разработки программного обеспечение
-						<br>+ Опыт работы с HTML, JS
+						<br>+ Базовое знание HTML, JS
 						<!--<br>+ Знания Rust -->
 						<br>+ Базовые знания PhotoShop
 					</p>
@@ -116,17 +115,46 @@
             
             <section class="section projects-section">
                 <h2 class="section-title"><span class="icon-holder"><i class="fas fa-archive"></i></span>Проекты</h2>
+                
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
-                            <h3 class="job-title">Cистема управления индукционной печью</h3>
+                            <h3 class="job-title">Универсальная система автоматики</h3>
+                            <div class="time">2020.06 (в разработке)</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Екатеринбург</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                    	<p align="justify " ><img src="assets/images/p5.jpg"align="right" vspace="10" hspace="10">
+						Основана на Stm32. Гибкая система, преднозначина для мониторинга и регулирования быстро протикающих процессов технологического характера. <br> Устройство включает в себя различные протоколы такие как modbus, can, eth. В купе с модульной архитектурой, позволяет удовлетворить любые запросы</p> 
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Система управления ультразвуковой установкой</h3>
+                            <div class="time">2020.02</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Екатеринбург</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                    	<p align="justify " ><img src="assets/images/p4.jpg"align="right" vspace="10" hspace="10">
+						Основана на Avr + Altera. Устройство реализует в полной мере процесс регулирования и управления механической резонансной системой. <br> Устройство оснащено большим количеством цифровых/аналоговых входов-выходов с гальваническими развязками, что обеспечивает гибкую конфигурацию под конкретную технологическую задачу.</p> 
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Система управления индукционной печью</h3>
                             <div class="time">2019.05</div>
                         </div><!--//upper-row-->
                         <div class="company">Челябинск</div>
                     </div><!--//meta-->
                     <div class="details">
-                    	<p align="justify " ><img src="assets/images/p3.jpg"align="right">
-						Основана на stm32. Устройство обеспечивает удаленное управление и автоматизацию процесса плавки металла. Настройка осуществляется через приложение на ПК посредством ethernet. <br> Устройство оснащено большим количеством цифровых/аналоговых входов-выходов с гальваническими развязками, что обеспечивает возможность внедрения в большинство современных установок.</p> 
+                    	<p align="justify " ><img src="assets/images/p3.jpg"align="right" vspace="10" hspace="10">
+						Основана на stm32. Устройство обеспечивает удаленное управление процессом плавки металла. Настройка осуществляется ПК посредством ethernet. <br> Устройство оснащено большим количеством цифровых/аналоговых входов-выходов, что обеспечивает возможность внедрения в большинство современных установок.</p> 
                     </div><!--//details-->
                 </div><!--//item-->
 
@@ -139,8 +167,8 @@
                         <div class="company">Екатеринбург, AgroAspect</div>
                     </div><!--//meta-->
                     <div class="details">
-                    	<p align="justify " ><img src="assets/images/p2.jpg"align="right">
-						Основана на esp32. Устройство обеспечивает контроль всех узлов системы на протяжении полного цикла роста растений. Имеет высокий уровень автоматизации. Настройка осуществляется через WEB-интерфейс. <br> На борту предусмотрены все необходимые каскады для контроля и управления.</p> 
+                    	<p align="justify " ><img src="assets/images/p2.jpg"align="right" vspace="10" hspace="10">
+						Основана на Esp32. Устройство обеспечивает контроль всех узлов системы на протяжении полного цикла роста растений. Имеет высокий уровень автоматизации. Настройка осуществляется через WEB-интерфейс. <br> На борту предусмотрены все необходимые каскады для контроля и управления.</p> 
                     </div><!--//details-->
                 </div><!--//item-->
 
@@ -153,7 +181,7 @@
                         <div class="company">Москва, Art Of Electricity</div>
                     </div><!--//meta-->
                     <div class="details">
-						<p align="justify " ><img src="assets/images/p1.jpg"align="right">
+						<p align="justify " ><img src="assets/images/p1.jpg"align="right" vspace="10" hspace="10">
 						Установка с газоразрядной лампой имеющая широкий диапазон настроек. Основное преимущество устройства — возможность модуляции сигнала высоковольтного генератора. Поддерживается 4 паттерна с возможность изменения частоты.</p> 
                     </div><!--//details-->
                 </div><!--//item-->
